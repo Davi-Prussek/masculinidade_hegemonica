@@ -598,11 +598,11 @@ Chapters
 
 @media (max-width: 480px) {
   .tag-line {
-    font-size: clamp(1rem, 2.4vw, 0.8rem);
+    font-size: 0.8rem;
     padding-bottom: 5vw;
   }
   .main-title {
-    font-size: clamp(3rem, 4vw, 3.5rem);
+    font-size: 2.5  rem;
     line-height: 15vw;
     padding-bottom: 8vw;
   }
@@ -610,12 +610,12 @@ Chapters
     padding-inline: 20px;
     min-height: fit-content;
     padding-top: 30vw;
-    padding-bottom: 10vw;
+    padding-bottom: 20vw;
   }
   .abstract {
     line-height: 10vw;
-    font-size: clamp(1.4rem, 3vw, 1.15rem);
-    padding-inline: clamp(1.2rem, 2vw, 1.14rem);
+    font-size: clamp(1.2rem, 3vw, 1.15rem);
+    padding-inline: 0.5rem;
   }
   .content-limit {
     padding: 0 20px;

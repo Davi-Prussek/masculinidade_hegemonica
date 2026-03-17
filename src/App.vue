@@ -303,7 +303,7 @@ body {
   color: var(--clay);
 }
 
-/* Chapters */
+Chapters
 .chapter {
   padding: clamp(40px, 10vw, 80px) 0;
 }
@@ -597,6 +597,26 @@ body {
 }
 
 @media (max-width: 480px) {
+  .tag-line {
+    font-size: clamp(1rem, 2.4vw, 0.8rem);
+    padding-bottom: 5vw;
+  }
+  .main-title {
+    font-size: clamp(3rem, 4vw, 3.5rem);
+    line-height: 15vw;
+    padding-bottom: 8vw;
+  }
+  .editorial-header {
+    padding-inline: 20px;
+    min-height: fit-content;
+    padding-top: 30vw;
+    padding-bottom: 10vw;
+  }
+  .abstract {
+    line-height: 10vw;
+    font-size: clamp(1.4rem, 3vw, 1.15rem);
+    padding-inline: clamp(1.2rem, 2vw, 1.14rem);
+  }
   .content-limit {
     padding: 0 20px;
   }
